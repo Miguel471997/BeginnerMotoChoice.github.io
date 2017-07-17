@@ -1,0 +1,256 @@
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>BeginnerMotoChoice</title>
+    <link href="https://d30y9cdsu7xlg0.cloudfront.net/png/24598-200.png" rel="stylesheet">
+
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <link href="css/shop-homepage.css" rel="stylesheet">
+            
+    <style type="text/css">
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        .menu ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .menu ul li{
+            padding: 15px;
+            position: relative;
+            width: 150px;
+            vertical-align: middle;
+            border-right: 5px solid black;
+            background-color: darkgray;
+            cursor: pointer;
+            border-top: 1px solid gray;
+            -webkit-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+        .menu ul li:hover{
+            background-color: slategray;
+        }
+        .menu > ul > li{
+            border-right: 5px solid lightgray;
+            
+        }
+        .menu ul ul{
+            transition: all 0.3s;
+            opacity: 0;
+            position: absolute;
+            border-left: 5px solid black;
+            visibility: hidden;
+            left: 99%;
+            top: -2%;
+        }
+        .menu ul li:hover > ul {
+            opacity: 1;
+            visibility: visible;
+        }
+        .menu ul li a{
+            color: gray;
+            text-decoration: none;
+        }
+        
+    </style>
+    
+</head>
+
+<body style="background-color:black;">
+    
+    
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><font color ="white">Beginner</font><font color="red">MOTO</font><font color ="white">choice</font></a>
+            </div>
+            
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">Empresa</a>
+                    </li>                            
+                    <li>
+                        <a href="#">Serviços</a>
+                    </li>
+                    <li>
+                        <a href="#">Contatos</a>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+        
+    </nav>
+
+    
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-3">
+                <p class="lead">BeginnerMotoChoice</p>
+                <div class="menu">                    
+                    <ul>
+                        <li><a href="#"><font color="white">Honda</font></a>
+                            <ul>
+                                <li><a href="#"><font color="white">CBF 125</font></a></li>
+                                <li><a href="#"><font color="white">PCX 125</font></a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><font color="white">Yamaha</font></a>
+                            <ul>
+                                <li><a href="#"><font color="white">MT 125</font></a></li>
+                                <li><a href="#"><font color="white">X MAX 125</font></a></li>
+                                <li><a href="#"><font color="white">WR 125 R</font></a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><font color="white">KTM</font></a>
+                            <ul>
+                                <li><a href="#"><font color="white">DUKE 125</font></a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><font color="white">Keeway</font></a>
+                            <ul>                                
+                                <li><a href="#"><font color="white">Superlight 125</font></a></li>
+                            </ul>
+                        </li>                                
+                    </ul>                    
+                </div>
+            </div>
+                
+            
+            <div class="col-md-9">
+
+                <div class="row carousel-holder">
+
+                    <div class="col-md-12">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img class="slide-image" src="http://yamaha.antero.pt/cms_imgs/3a68ff5b39b2ed7ec1e128bd6208a1d10614c6e4.jpg" alt="">
+                                    <h4><a href="#"><center><font color = "darkgray">Yamaha X MAX</font></center></a>
+                                </div>
+                                <div class="item">
+                                    <img class="slide-image" src="https://www.motosport.com.pt/wp-content/uploads/2016/11/KTM-390-Duke-MY17_Action-e1478703763976.jpg" alt="">
+                                    <h4><a href="#"><center><font color = "orange">KTM DUKE</font></center></a>
+                                </div>
+                                <div class="item">
+                                    <img class="slide-image" src="http://kosone.gr/images/stories/virtuemart/product/2009-yamaha-wr125r-eu-racing-blue-action-001.jpg" alt="">
+                                    <h4><a href="#"><center>Yamaha WR R</center></a>
+                                </div>
+                            </div>
+                            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="http://www.2commute.co.uk/wp-content/uploads/2015/04/Honda-CB125F-YM15-1031.jpg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">2,600.00 €</h4>
+                                <h4><a href="#">Honda CB F</a>
+                                </h4>
+                                <p>Cansado de consumos elevados? A CB F é a sua melhor opção!</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="https://i2.wp.com/www.asphaltandrubber.com/wp-content/uploads/2014/05/Yamaha-MT-125-03.jpg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">4,150.00 €</h4>
+                                <h4><a href="#">Yamaha MT</a>
+                                </h4>
+                                <p>A MT é indicada para si, se procura diversão!</p>
+                            </div>
+                         
+                        </div>
+                    </div>
+
+                                
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="https://i.ytimg.com/vi/t0f7Q1z2Wcs/maxresdefault.jpg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">1,990.00 €</h4>
+                                <h4><a href="#">Keeway 125</a>
+                                </h4>
+                                <p>Gosta de estilo? A Superlight é a ideal!</p>
+                            </div>                         
+                        </div>
+                    </div>
+                    
+
+                    
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    
+
+    <div class="container">
+
+        <hr>
+
+        
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p><font color="darkgray">Copyright &copy; 2017 All rights reserved</font></p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    
+
+    
+    <script src="js/jquery.js"></script>
+
+    
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+          
+</html>
